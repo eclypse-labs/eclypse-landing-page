@@ -16,10 +16,7 @@ export default function Header() {
         <HeaderTitle message="Team" href="/" />
         <HeaderTitle message="Blog" href="/" />
         <HeaderTitle message="FAQ" href="/pagetest" />
-        <HeaderButton
-          message="Launch App"
-          href="/pagetest"
-        />
+        <HeaderButton message="Launch App" href="/comingSoon" />
       </div>
     </div>
   );
