@@ -15,10 +15,10 @@ export default function Header() {
         />
         <HeaderTitle message="Team" href="/" />
         <HeaderTitle message="Blog" href="/" />
-        <HeaderTitle message="FAQ" href="/" />
+        <HeaderTitle message="FAQ" href="/pagetest" />
         <HeaderButton
           message="Launch App"
-          href="https://app.eclypse.finance/"
+          href="/pagetest"
         />
       </div>
     </div>
