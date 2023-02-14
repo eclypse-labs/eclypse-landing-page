@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import logo from "../images/logo/eclypse_logo.svg";
-import { HeaderTitle, HeaderButton } from "../components/Component_bank";
+import { HeaderTitle, HeaderButton } from "./Component_bank";
 
 export default function Header() {
   return (
