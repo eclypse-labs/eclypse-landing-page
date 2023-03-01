@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import illustration from "../images/illustrations/GhostsUpbringing.svg";
+import illustration from "../images/illustrations/ghosbringingghos.svg";
 
 export default function Hero() {
   return (
