@@ -21,7 +21,9 @@ export default function Hero() {
       </div>
       <div className="flex flex-col gap-4 items-center justify-center">
         <div className="text-lg">
-          Sign up for early access and exclusive updates from Eclypse.
+          Sign up for early access and exclusive updates from Eclypse. This
+          website is still a work in progress so it may appear differently on
+          your device.
         </div>
         <div>
           <HeroButton
