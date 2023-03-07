@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="flex flex-col items-center w-full gap-6">
         <div className="text-3xl font-bold">
           <span className="text-primary3">SUPERCHARGE </span>
-          <span className="text-white">YOUR LIQUIDITY</span>
+          <span className="text-black dark:text-white">YOUR LIQUIDITY</span>
         </div>
         <div className="w-9/12 text-center text-xl">
           <p className="">
