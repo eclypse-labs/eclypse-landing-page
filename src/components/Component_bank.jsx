@@ -32,7 +32,7 @@ export function FooterTitle(props) {
 export function HeroButton(props) {
   return (
     <Link
-      className="text-white hover:text-black hover:bg-white bg-primary3 duration-300 py-2 px-5 rounded-full"
+      className="text-white hover:text-white dark:hover:text-black hover:bg-black dark:hover:bg-white bg-primary3 duration-300 py-2 px-5 rounded-full"
       href={props.href}
     >
       {props.message}
@@ -44,7 +44,7 @@ export function FullyIntegratedCard(props) {
   return (
     <div className="flex flex-col items-center justify-start rounded-lg bg-primary3 bg-opacity-30 p-5 w-[420px] h-[235px] gap-3 text-center">
       <div className="text-xl font-bold">{props.title}</div>
-      <div className="text-m text-gray-200">{props.text}</div>
+      <div className="text-m text-gray-700 dark:text-gray-200">{props.text}</div>
     </div>
   );
 }

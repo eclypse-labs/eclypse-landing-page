@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div className="flex flex-col items-center justify-between px-10 gap-10 max-w-[1512px]">
       <div className="text-3xl font-bold">
-        <span className="text-white">FULLY </span>
+        <span className="text-black dark:text-white">FULLY </span>
         <span className="text-primary3"> INTEGRATED </span>
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center w-full gap-8">
