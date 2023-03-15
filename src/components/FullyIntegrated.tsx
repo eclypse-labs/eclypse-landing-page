@@ -3,12 +3,12 @@ import { FullyIntegratedCard } from "./Component_bank";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col items-center justify-between px-10 gap-10 max-w-[1512px]">
-      <div className="text-3xl font-bold">
+    <div className="flex flex-col items-center justify-between px-10 gap-10 max-w-[1512px] w-full text-center">
+      <div className="text-3xl font-bold mt-10 md:mt-0">
         <span className="text-black dark:text-white">FULLY </span>
         <span className="text-primary3"> INTEGRATED </span>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-center w-full gap-8">
+      <div className="flex flex-col md:flex-row items-start justify-center w-full gap-8">
         <FullyIntegratedCard
           title="COLLATERALIZE AND MANAGE
           YOUR UNISWAP LP"
