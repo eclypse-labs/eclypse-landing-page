@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { StaticImageData } from "next/image";
 
-export function HeaderTitle(props) {
+interface HrefAndMsgProps{
+  href: string;
+  message: string;
+}
+export function HeaderTitle(props : HrefAndMsgProps) {
   return (
     <Link className="hover:text-primary3 duration-200 z-50" href={props.href}>
       {props.message}
@@ -10,7 +15,11 @@ export function HeaderTitle(props) {
   );
 }
 
-export function HeaderButton(props) {
+interface HeaderButton{
+  href: string;
+  message: string;
+}
+export function HeaderButton(props : HrefAndMsgProps) {
   return (
     <Link
       className="text-black bg-white hover:bg-primary3 duration-300 py-2 px-7 rounded-full z-50"
@@ -21,7 +30,11 @@ export function HeaderButton(props) {
   );
 }
 
-export function FooterTitle(props) {
+interface hrefAndTitleProps{
+  href: string;
+  title: string;
+}
+export function FooterTitle(props: hrefAndTitleProps) {
   return (
     <Link className="hover:text-primary3 duration-200 z-50" href={props.href}>
       {props.title}
@@ -29,7 +42,13 @@ export function FooterTitle(props) {
   );
 }
 
-export function HeroButton(props) {
+interface HeroButton{
+  href: string;
+  title: string;
+}
+
+
+export function HeroButton(props: HrefAndMsgProps) {
   return (
     <Link
       className="text-white hover:text-white dark:hover:text-black hover:bg-black dark:hover:bg-white bg-primary3 duration-300 py-2 px-5 rounded-full"
@@ -40,7 +59,12 @@ export function HeroButton(props) {
   );
 }
 
-export function FullyIntegratedCard(props) {
+interface FullyIntegratedCardProps{
+  title: string;
+  text: string;
+}
+
+export function FullyIntegratedCard(props : FullyIntegratedCardProps) {
   return (
     <div className="flex flex-col items-center justify-start rounded-lg bg-primary3 bg-opacity-30 p-5 w-[420px] h-[235px] gap-3 text-center">
       <div className="text-xl font-bold">{props.title}</div>
@@ -49,10 +73,16 @@ export function FullyIntegratedCard(props) {
   );
 }
 
-export function FooterSocial(props) {
+interface FooterSocialProps{
+  href: string;
+  logo: StaticImageData;
+  alt: string;
+}
+
+export function FooterSocial(props: FooterSocialProps) {
   return (
     <Link href={props.href}>
-      <Image src={props.logo} />
+      <Image src={props.logo} alt={props.alt}/>
     </Link>
   );
 }
