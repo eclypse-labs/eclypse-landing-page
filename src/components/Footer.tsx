@@ -14,20 +14,23 @@ export default function Header() {
   return (
     <div className="h-[300px] flex flex-row items-start py-12 justify-start px-20 max-w-[1512px] gap-10">
       <div className="w-[480px] flex flex-col gap-6">
-        <Image src={logo} className="" />
+        <Image src={logo} className="" alt="Eclypse Logo"/>
         <span className="pl-6">Supercharge your liquidity.</span>
         <div className="flex flex-row pl-6 gap-5">
           <FooterSocial
             logo={logo_twitter}
             href="https://twitter.com/EclypseProtocol"
+            alt="twitter"
           />
           <FooterSocial
             logo={logo_github}
             href="https://github.com/eclypse-labs"
+            alt="github"
           />
           <FooterSocial
             logo={logo_telegram}
             href="https://t.me/EclypseFinance"
+            alt="telegram"
           />
         </div>
       </div>

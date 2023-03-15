@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 import illustration from "../images/illustrations/ghosbringingghos.svg";
 
-export default function Hero() {
+export default function Supercharge() {
   return (
     <div className="flex flex-col md:flex-row items-center px-10 max-w-[1512px]">
       <div className="flex flex-col items-center w-full p-6">
-        <Image src={illustration} />
+        <Image src={illustration} alt="Ghost Illustration" />
       </div>
       <div className="flex flex-col items-center w-full gap-6">
         <div className="text-3xl font-bold">
