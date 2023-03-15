@@ -3,6 +3,7 @@ import Image from "next/image";
 import hero from "../images/illustrations/eclypse_hero.png";
 import { HeroButton } from "./Component_bank";
 import Hero3dScene from "./Hero3dScene";
+import DesktopOnly from "./DesktopOnly";
 
 export default function Hero() {
   return (
@@ -15,9 +16,9 @@ export default function Hero() {
           </div>
           <div>Level up.</div>
         </div>
-        <div className="flex items-center justify-center w-full">
-          <Hero3dScene />
-        </div>
+        <DesktopOnly className="flex items-center justify-center w-full">
+            <Hero3dScene />
+        </DesktopOnly>  
       </div>
       <div className="flex flex-col gap-4 items-center justify-center">
         <div className="text-lg">
