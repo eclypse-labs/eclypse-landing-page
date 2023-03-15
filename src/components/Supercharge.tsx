@@ -8,7 +8,7 @@ export default function Supercharge() {
       <div className="flex flex-col items-center w-full p-6">
         <Image src={illustration} alt="Ghost Illustration" />
       </div>
-      <div className="flex flex-col items-center w-full text-center gap-6">
+      <div className="flex flex-col flex-wrap items-center w-full text-center gap-6">
         <div className="text-3xl font-bold">
           <span className="text-primary3">SUPERCHARGE </span>
           <span className="text-black dark:text-white">YOUR LIQUIDITY</span>
