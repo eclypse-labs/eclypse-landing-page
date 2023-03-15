@@ -12,7 +12,7 @@ import { FooterSocial, FooterTitle } from "./Component_bank";
 
 export default function Header() {
   return (
-    <div className="h-[300px] flex flex-row items-start py-12 justify-start px-20 max-w-[1512px] gap-10">
+    <div className="h-[300px] flex flex-row items-start w-full py-12 justify-start px-20 max-w-[1512px] gap-10">
       <div className="w-[480px] flex flex-col gap-6">
         <Image src={logo} className="" alt="Eclypse Logo"/>
         <span className="pl-6">Supercharge your liquidity.</span>
