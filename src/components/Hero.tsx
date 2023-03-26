@@ -4,6 +4,7 @@ import hero from "../images/illustrations/eclypse_hero.png";
 import { HeroButton } from "./Component_bank";
 import Hero3dScene from "./Hero3dScene";
 import DesktopOnly from "./DesktopOnly";
+import MobileOnly from "./MobileOnly";
 
 export default function Hero() {
   return (
@@ -19,6 +20,12 @@ export default function Hero() {
           <div>
             Level up.
             </div>
+            <div className="mt-6">
+              <HeroButton
+                message="SIGN UP"
+                href="https://yq4evf4qrme.typeform.com/to/StUSjVb1"
+              />
+            </div>
         </div>
         <div className="flex items-center justify-center w-[65%]">
           <DesktopOnly className="flex items-center w-full h-[400px] lg:h-[600px] justify-center">
@@ -32,12 +39,15 @@ export default function Hero() {
           website is still a work in progress so it may appear differently on
           your device.
         </div>
-        <div>
-          <HeroButton
-            message="JOIN WAITLIST"
-            href="https://yq4evf4qrme.typeform.com/to/StUSjVb1"
-          />
-        </div>
+        <MobileOnly>
+          <div className="mt-6">
+            <HeroButton
+              message="SIGN UP"
+              href="https://yq4evf4qrme.typeform.com/to/StUSjVb1"
+            />
+          </div>
+        </MobileOnly>
+        
       </div>
     </div>
   );
