@@ -33,22 +33,34 @@ export default function Hero() {
           </DesktopOnly>  
         </div>
       </div>
+      <DesktopOnly>
       <div className="flex flex-col gap-4 items-center w-full justify-center">
         <div className="text-lg w-[80%] md:w-full text-center">
           Sign up for early access and exclusive updates from Eclypse. This
           website is still a work in progress so it may appear differently on
           your device.
         </div>
-        <MobileOnly>
+      </div>
+      </DesktopOnly>
+
+      <MobileOnly>
+      <div className="flex flex-col gap-4 items-center w-full justify-center mt-6">
+        <div className="text-lg w-[80%] md:w-full text-center">
+          Sign up for early access and exclusive updates from Eclypse. This
+          website is still a work in progress so it may appear differently on
+          your device.
+        </div>
+        
           <div className="mt-6">
             <HeroButton
               message="SIGN UP"
               href="https://yq4evf4qrme.typeform.com/to/StUSjVb1"
             />
           </div>
-        </MobileOnly>
+        
         
       </div>
+      </MobileOnly>
     </div>
   );
 }

@@ -18,7 +18,7 @@ export default function Home() {
     <Nav/>
 
     <MobileOnly>
-      <div className="w-full relative top-14 mt-6"> 
+      <div className="w-full relative top-14 justify-center content-center	"> 
         <Hero />
         <Supercharge />
         <FullyIntegrated />
@@ -27,7 +27,7 @@ export default function Home() {
     </MobileOnly>
 
     <DesktopOnly>
-      <div className="w-full relative top-0"> 
+      <div className="w-full relative top-0 justify-center content-center	"> 
         <Hero />
         <Supercharge />
         <FullyIntegrated />
