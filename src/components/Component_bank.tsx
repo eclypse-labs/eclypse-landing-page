@@ -5,12 +5,12 @@ import { StaticImageData } from "next/image";
 
 interface HrefAndMsgProps{
   href: string;
-  message: string;
+  text: string;
 }
 export function HeaderTitle(props : HrefAndMsgProps) {
   return (
     <Link className="hover:text-primary3 duration-200 z-50" href={props.href}>
-      {props.message}
+      {props.text}
     </Link>
   );
 }
@@ -22,10 +22,10 @@ interface HeaderButton{
 export function HeaderButton(props : HrefAndMsgProps) {
   return (
     <Link
-      className="text-black bg-white hover:bg-primary3 duration-300 py-2 px-7 rounded-full z-50"
+      className="text-black flex items-center justify-center bg-white hover:bg-primary3 duration-300 py-2 px-7 rounded-lg h-[46px] z-50"
       href={props.href}
     >
-      {props.message}
+      {props.text}
     </Link>
   );
 }
@@ -50,12 +50,17 @@ interface HeroButton{
 
 export function HeroButton(props: HrefAndMsgProps) {
   return (
-    <Link
-      className="text-white hover:text-white dark:hover:text-black hover:bg-black dark:hover:bg-white bg-primary3 duration-300 py-2 px-5 rounded-full"
-      href={props.href}
-    >
-      {props.message}
-    </Link>
+    <div className="w-full h-full">
+      <Link
+        href={props.href}
+      >
+        <div className="text-black dark:hover:bg-primary7 bg-primary6 duration-300 py-4 px-6 rounded-lg relative">
+          <span className="absolute animate-ping -top-2 -left-2 h-5 w-5 rounded-full bg-primary8 opacity-75"></span>
+          <span className="absolute -top-1 -left-1 rounded-full h-3 w-3 bg-primary8"></span>
+        {props.text}
+        </div>
+      </Link>
+    </div>
   );
 }
 
