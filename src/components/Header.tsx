@@ -5,16 +5,19 @@ import { HeaderTitle, HeaderButton } from "./Component_bank";
 
 const Header: React.FC = () => {
   return (
-    <div className="h-[100px] flex flex-row w-full items-center justify-between px-10 max-w-[1512px] z-50">
-      <Image src={logo} alt="Eclypse Logo" className="z-50" />
-      <div className="flex flex-row items-center gap-10">
-        <HeaderTitle message="Github" href="https://github.com/eclypse-labs" />
-        <HeaderTitle message="Documentation" href="" />
-        <HeaderButton
-          message="Launch App"
-          href="https://app.eclypse.finance/"
-        />
+    <div className="h-[100px] z-50 font-montserrat bg-black/20 w-full flex items-center justify-center">
+      <div className="max-w-[1512px] items-center justify-between flex flex-row w-full px-10">
+        <Image src={logo} alt="Eclypse Logo" className="z-50" />
+        <div className="hidden flex-row items-center min-[850px]:flex gap-10">
+          <HeaderTitle text="Github" href="https://github.com/eclypse-labs" />
+          <HeaderTitle text="Documentation" href="" />
+          <HeaderButton
+            text="Launch App"
+            href="https://app.eclypse.finance/"
+          />
+        </div>
       </div>
+    
     </div>
   );
 }
