@@ -9,7 +9,7 @@ export default function Hero() {
           <span className="text-black dark:text-white">FULLY </span>
           <span className="from-primary3 to-primary6 bg-gradient-to-r bg-clip-text text-transparent"> INTEGRATED </span>
         </div>
-        <div className="flex flex-col flex-wrap lg:flex-nowrap md:flex-row items-start justify-center w-full gap-8">
+        <div className="flex flex-col flex-wrap items-center lg:flex-nowrap md:flex-row md:items-start justify-center w-full gap-8">
           <FullyIntegratedCard
             title="COLLATERALIZE AND MANAGE
             YOUR UNISWAP LP"
