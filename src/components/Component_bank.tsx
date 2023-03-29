@@ -70,7 +70,7 @@ interface FullyIntegratedCardProps{
 
 export function FullyIntegratedCard(props : FullyIntegratedCardProps) {
   return (
-    <div className="flex flex-col items-center justify-start rounded-lg bg-primary3 bg-opacity-30 p-5 w-[420px] h-full gap-3 text-center">
+    <div className="flex flex-col items-center justify-start rounded-lg bg-primary3 bg-opacity-30 p-5 w-full md:w-[420px] h-full gap-3 text-center">
       <div className="text-xl font-bold">{props.title}</div>
       <div className="text-m text-gray-700 dark:text-gray-200">{props.text}</div>
     </div>
