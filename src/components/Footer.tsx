@@ -13,7 +13,7 @@ import { FooterSocial, FooterTitle } from "./Component_bank";
 
 export default function Header() {
   return (
-    <div className="h-[300px] flex flex-row items-start w-full py-12 justify-between px-20 max-w-[1512px] gap-10 lg:gap-32 bg-black/20 z-50 mt-20">
+    <div className="h-[300px] flex flex-row items-start w-full py-12 justify-between px-20 max-w-[1512px] gap-10 lg:gap-32 bg-black/20 z-40 mt-20">
       <div className="flex flex-col gap-6 ">
         <div className="flex flex-row gap-1 h-[50px] items-center">
           <Image src={logosolo} alt="logo Eclypse"/>
