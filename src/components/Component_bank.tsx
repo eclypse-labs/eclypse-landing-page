@@ -47,7 +47,6 @@ interface HeroButton{
   title: string;
 }
 
-
 export function HeroButton(props: HrefAndMsgProps) {
   return (
     <div className="w-full h-full">
