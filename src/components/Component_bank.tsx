@@ -6,6 +6,7 @@ import { StaticImageData } from "next/image";
 interface HrefAndMsgProps{
   href: string;
   text: string;
+  target: string;
 }
 export function HeaderTitle(props : HrefAndMsgProps) {
   return (
@@ -18,12 +19,15 @@ export function HeaderTitle(props : HrefAndMsgProps) {
 interface HeaderButton{
   href: string;
   message: string;
+  target: string;
 }
 export function HeaderButton(props : HrefAndMsgProps) {
   return (
     <Link
       className="text-black flex items-center justify-center bg-white hover:bg-primary3 duration-300 py-2 px-7 rounded-lg h-[46px] z-50"
       href={props.href}
+      rel="noopener"
+      target={props.target}
     >
       {props.text}
     </Link>
@@ -45,6 +49,7 @@ export function FooterTitle(props: hrefAndTitleProps) {
 interface HeroButton{
   href: string;
   title: string;
+  target: string;
 }
 
 export function HeroButton(props: HrefAndMsgProps) {
@@ -52,7 +57,9 @@ export function HeroButton(props: HrefAndMsgProps) {
     <div className="w-full h-full">
       <Link
         href={props.href}
-      >
+        target={props.target}
+        rel="noopener"
+        >
         <div className="text-black dark:hover:bg-primary7 bg-primary6 duration-300 py-4 px-6 rounded-lg relative">
           <span className="absolute animate-ping -top-2 -left-2 h-5 w-5 rounded-full bg-primary8 opacity-75"></span>
           <span className="absolute -top-1 -left-1 rounded-full h-3 w-3 bg-primary8"></span>
@@ -85,7 +92,7 @@ interface FooterSocialProps{
 
 export function FooterSocial(props: FooterSocialProps) {
   return (
-    <Link href={props.href}>
+    <Link href={props.href} target="blank" rel="noopener">
       <Image src={props.logo} alt={props.alt}/>
     </Link>
   );

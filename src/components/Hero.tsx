@@ -22,8 +22,9 @@ export default function Hero() {
           </div>
           <div className="text-lg font-medium">
             <HeroButton
+            target="blank"
             text="SIGN UP"
-            href="/"/>
+            href="https://yq4evf4qrme.typeform.com/to/StUSjVb1?typeform-source=eclypse.finance"/>
           </div>
         </div>
         <div className="flex items-center justify-center w-[60%] h-full relative overflow-visible">
