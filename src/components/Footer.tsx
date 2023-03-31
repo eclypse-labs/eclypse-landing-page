@@ -2,29 +2,30 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../images/logo/eclypse_logo2.svg";
-import logosolo from "../images/logo/eclypse_logo_solo.png";
-import logo_twitter from "../images/logo/eclypse_twitter.png";
-import logo_medium from "../images/logo/eclypse_medium.png";
-import logo_github from "../images/logo/eclypse_github.png";
-import logo_telegram from "../images/logo/eclypse_telegram.png";
-import logo_discord from "../images/logo/eclypse_discord.png";
-import logo_linkedin from "../images/logo/eclypse_linkedin.png";
+import logosolo from "../images/logo/eclypse_logo_solo.svg";
+import twitter from "../images/logo/twitter.svg";
+import telegram from "../images/logo/telegram.svg";
+import github from "../images/logo/github.svg";
+import linkedin from "../images/logo/linkedin.svg";
+import discord from "../images/logo/discord.svg";
+import medium from "../images/logo/medium.svg";
+
 import { FooterSocial, FooterTitle } from "./Component_bank";
 
 export default function Header() {
   return (
-    <div className="h-[300px] flex flex-row items-start w-full py-12 justify-between px-20 max-w-[1512px] gap-10 lg:gap-32 bg-black/20 z-40 mt-20">
-      <div className="flex flex-col gap-6 ">
-        <div className="flex flex-row gap-1 h-[50px] items-center">
-          <Image src={logosolo} alt="logo Eclypse"/>
-          <Link href="/" className="text-primary3 font-medium text-4xl">
+    <div className="md:h-[300px] flex flex-col md:flex-row items-center md:items-start w-full py-12 justify-start md:justify-between px-10 md:px-20 max-w-[1512px] gap-10 lg:gap-32 bg-black/20 z-40 mt-20">
+      <div className="flex flex-col gap-0 md:gap-6 w-full md:w-fit">
+        <div className="flex flex-col md:flex-row gap-1 md:h-[50px] items-center">
+          <Image src={logosolo} alt="logo Eclypse" className="w-40 md:w-14"/>
+          <Link href="/" className="text-gray-200 md:text-primary3 font-medium text-2xl md:text-4xl">
           _ECLYPSE
-        </Link>
+          </Link>
         </div>
-        <span className="pl-6">Unleashing the power of <br/> your liquidity.</span>
+        <span className="md:pl-2 text-sm md:text-base text-center md:text-left">Unleashing the power of your liquidity.</span>
       </div>
-      <div className="flex flex-col gap-2 text-lg ">
-        <div className="flex flex-row h-[50px] items-center">
+      <div className="flex flex-col gap-2 text-lg text-center md:text-left">
+        <div className="flex flex-col md:flex-row md:h-[50px] items-center">
         <Link href="" className="text-primary3 text-2xl font-medium">
           _Ressources
         </Link>
@@ -32,25 +33,25 @@ export default function Header() {
         <FooterTitle title="Github" href="https://github.com/eclypse-labs" target="blank"/>
         <FooterTitle title="Whitepaper" href="" target="blank"/>
       </div>
-      <div className="flex flex-col gap-2 text-lg ">
-        <div className="flex flex-row  h-[50px] items-center">
+      <div className="flex flex-col gap-2 text-lg text-center md:text-left">
+        <div className="flex flex-col md:flex-row md:h-[50px] items-center">
           <Link href="" className="text-primary3 text-2xl font-medium">
             _Socials
           </Link>
         </div>
-        <div className="flex flex-row pl-6 gap-5">
+        <div className="flex flex-wrap md:flex-row pl-0 gap-5">
           <FooterSocial
-            logo={logo_twitter}
+            logo={twitter}
             href="https://twitter.com/EclypseProtocol"
             alt="twitter"
           />
           <FooterSocial
-            logo={logo_github}
+            logo={github}
             href="https://github.com/eclypse-labs"
             alt="github"
           />
           <FooterSocial
-            logo={logo_telegram}
+            logo={telegram}
             href="https://t.me/EclypseFinance"
             alt="telegram"
           />
