@@ -18,14 +18,14 @@ export default function Burger () {
                     {show && <div className="w-screen h-screen absolute top-0 right-0 duration-300" id="navbar-hamburger">
                         <ul className="flex flex-col h-full items-center justify-center p-0 mt-0 pt-[100px] z-10  rounded-sm  md:flex-row md:text-sm md:font-medium bg-gray-800/80 filter backdrop-blur-md ">
                         <li>
-                        <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">Documentations</a>
+                        <a href="#" target="blank" rel="noopener" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">Documentations</a>
                         </li>
                         <li>
-                        <a href="#" className="block mt-2 py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">GitHub</a>
+                        <a href="https://github.com/eclypse-labs" target="blank" rel="noopener" className="block mt-2 py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">GitHub</a>
                         </li>  
                         <li>
                         <div className="block mt-2 py-2 pl-3 pr-4 text-gray-700 rounded  md:p-0 dark:text-gray-400 md:dark:hover:text-white  dark:hover:text-white md:dark:hover:bg-transparent">
-                        <HeroButton text="Launch App" href="https://yq4evf4qrme.typeform.com/to/StUSjVb1" target="blank"/>
+                        <HeroButton text="Sign Up" href="https://yq4evf4qrme.typeform.com/to/StUSjVb1" target="blank"/>
                         </div>
                         </li> 
                         </ul>

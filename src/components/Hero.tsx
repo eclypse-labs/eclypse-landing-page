@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import hero from "../images/illustrations/eclypse_hero.png";
+import mobile_hero from "../images/illustrations/mobile_hero.png";
 import { HeroButton } from "./Component_bank";
 import Hero3dScene from "./Hero3dScene";
 import DesktopOnly from "./DesktopOnly";
@@ -40,6 +41,9 @@ export default function Hero() {
         <span className="md:text-4xl lg:text-7xl xl:text-8xl">136M$</span><span className="md:mt-3 md:text-base lg:mt-8 xl:text-xl xl:mt-14">treasury</span>
       <div>
         </div>
+      </div>
+      <div className="flex flex-col items-center justify-center md:hidden">
+        <Image src={mobile_hero} alt="mobile hero illustration"/>
       </div>
     </div>
   );
