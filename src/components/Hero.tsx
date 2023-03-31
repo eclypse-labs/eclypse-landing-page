@@ -53,7 +53,7 @@ export default function Hero() {
         
           <div className="mt-6">
             <HeroButton
-              message="SIGN UP"
+              message="SIGNUP"
               href="https://yq4evf4qrme.typeform.com/to/StUSjVb1"
             />
           </div>

@@ -14,11 +14,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-  <div className="bg-[url('../images/illustrations/background_gradient.svg')]">
+  <div className="bg-[url('../images/illustrations/background_gradient.svg')] md:transform-none">
     <Nav/>
 
     <MobileOnly>
-      <div className="w-full relative top-14 justify-center content-center	"> 
+      <div className="top-14 "> 
         <Hero />
         <Supercharge />
         <FullyIntegrated />
@@ -27,7 +27,7 @@ export default function Home() {
     </MobileOnly>
 
     <DesktopOnly>
-      <div className="w-full relative top-0 justify-center content-center	"> 
+      <div className="top-0 "> 
         <Hero />
         <Supercharge />
         <FullyIntegrated />
