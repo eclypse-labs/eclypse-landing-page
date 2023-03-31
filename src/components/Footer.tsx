@@ -29,8 +29,8 @@ export default function Header() {
           _Ressources
         </Link>
         </div>
-        <FooterTitle title="Github" href="https://github.com/eclypse-labs" />
-        <FooterTitle title="Whitepaper" href="" />
+        <FooterTitle title="Github" href="https://github.com/eclypse-labs" target="blank"/>
+        <FooterTitle title="Whitepaper" href="" target="blank"/>
       </div>
       <div className="flex flex-col gap-2 text-lg ">
         <div className="flex flex-row  h-[50px] items-center">

@@ -25,7 +25,7 @@ export default function Burger () {
                         </li>  
                         <li>
                         <div className="block mt-2 py-2 pl-3 pr-4 text-gray-700 rounded  md:p-0 dark:text-gray-400 md:dark:hover:text-white  dark:hover:text-white md:dark:hover:bg-transparent">
-                        <HeroButton text="Launch App" href="https://yq4evf4qrme.typeform.com/to/StUSjVb1"/>
+                        <HeroButton text="Launch App" href="https://yq4evf4qrme.typeform.com/to/StUSjVb1" target="blank"/>
                         </div>
                         </li> 
                         </ul>

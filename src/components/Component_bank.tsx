@@ -10,7 +10,7 @@ interface HrefAndMsgProps{
 }
 export function HeaderTitle(props : HrefAndMsgProps) {
   return (
-    <Link className="hover:text-primary3 duration-200 z-50" href={props.href}>
+    <Link className="hover:text-primary3 text-gray-100 duration-200 z-50" href={props.href} rel="noopener" target="porps.target">
       {props.text}
     </Link>
   );
@@ -24,7 +24,7 @@ interface HeaderButton{
 export function HeaderButton(props : HrefAndMsgProps) {
   return (
     <Link
-      className="text-black flex items-center justify-center bg-white hover:bg-primary3 duration-300 py-2 px-7 rounded-lg h-[46px] z-50"
+      className="text-black flex items-center justify-center hover:bg-primary3 bg-gray-100 duration-300 py-2 px-7 rounded-lg h-[46px] z-50"
       href={props.href}
       rel="noopener"
       target={props.target}
@@ -37,10 +37,11 @@ export function HeaderButton(props : HrefAndMsgProps) {
 interface hrefAndTitleProps{
   href: string;
   title: string;
+  target: string;
 }
 export function FooterTitle(props: hrefAndTitleProps) {
   return (
-    <Link className="hover:text-primary3 duration-200 z-50" href={props.href}>
+    <Link className="hover:text-primary3 duration-200 z-50" href={props.href} rel="noopener" target="props.target">
       {props.title}
     </Link>
   );

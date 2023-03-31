@@ -12,15 +12,15 @@ const Header: React.FC = () => {
         <Image src={logo} alt="Eclypse Logo" className="z-50 hidden md:flex" />
         <Image src={logosolo} alt="Eclypse Logo" className="ml-[20px] md:hidden"/>
         <div className="hidden flex-row items-center min-[850px]:flex gap-10">
-          <HeaderTitle text="Github" href="https://github.com/eclypse-labs" />
-          <HeaderTitle text="Documentation" href="" />
+          <HeaderTitle text="Github" href="https://github.com/eclypse-labs" target="blank" />
+          <HeaderTitle text="Documentation" href="" target=""/>
           <HeaderButton
             text="Coming Soon"
             href="https://yq4evf4qrme.typeform.com/to/StUSjVb1?typeform-source=eclypse.finance"
             target="blank"
           />
         </div>
-        <div className="flex md:hidden items-center justify-center bg-green-300 relative h-[100px]">
+        <div className="flex md:hidden items-center justify-center relative h-[100px]">
           <Burger/>
         </div>
       </div>
