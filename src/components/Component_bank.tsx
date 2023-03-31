@@ -93,8 +93,12 @@ interface FooterSocialProps{
 
 export function FooterSocial(props: FooterSocialProps) {
   return (
-    <Link href={props.href} target="blank" rel="noopener">
-      <Image src={props.logo} alt={props.alt}/>
+    <div className="text-red-200 fill-current">
+    <Link href={props.href} target="blank" rel="noopener" className="hover:opacity-40 duration-300 ">
+
+      <Image src={props.logo} alt={props.alt} className=""/>
+
     </Link>
+    </div>
   );
 }

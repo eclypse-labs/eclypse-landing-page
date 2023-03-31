@@ -7,15 +7,15 @@ import DesktopOnly from "./DesktopOnly";
 
 export default function Hero() {
   return (
-    <div className="md:h-full flex flex-col items-center justify-around gap-0 pb-10 py-10 px-10 max-w-[1512px] z-0 w-full">
+    <div className="md:h-full flex flex-col items-center justify-around gap-0 pb-10 mt-20 md:mt-0 py-10 px-10 max-w-[1512px] z-0 w-full">
       <div className="flex flex-row py-10 items-center justify-center w-full h-full max-w-[1160px] relative overflow-visible">
-        <div className="hidden md:flex flex-col h-full w-[40%] gap-4 lg:gap-6 text-6xl justify-center items-start font-bold">
-          <div className="flex flex-col gap-2 lg:gap-4 items-start justify-center md:text-4xl lg:text-5xl xl:text-6xl">
+        <div className="flex flex-col h-full w-full md:w-[40%] gap-4 lg:gap-6 text-6xl justify-center items-start font-bold">
+          <div className="flex flex-col gap-2 lg:gap-4 items-start justify-center text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
             <span>Collect Fees.</span>
             <span>Stay <span className="text-primary6">Liquid</span></span>
             <span>Level up.</span>  
           </div>
-          <div className="md:text-sm lg:text-base xl:text-lg font-medium">
+          <div className="text-sm lg:text-base xl:text-lg font-medium">
           Sign up for early access and exclusive updates from Eclypse. This
           website is still a work in progress so it may appear differently on
           your device.
@@ -27,7 +27,7 @@ export default function Hero() {
             href="https://yq4evf4qrme.typeform.com/to/StUSjVb1?typeform-source=eclypse.finance"/>
           </div>
         </div>
-        <div className="flex items-center justify-center w-[60%] h-full relative overflow-visible">
+        <div className="md:flex hidden items-center justify-center w-[60%] h-full relative overflow-visible">
           <DesktopOnly className="flex items-center w-[200px] md:w-[500px] lg:w-[600px] xl:w-[800px] h-[400px] lg:h-[500px] xl:h-[600px] justify-center absolute overflow-visible z-50">
               <Hero3dScene/>
           </DesktopOnly>  
