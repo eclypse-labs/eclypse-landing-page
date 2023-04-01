@@ -15,7 +15,9 @@ export default function Supercharge() {
         </div>
         <div className="w-full text-center text-base sm:text-base md:text-base lg:text-xl xl:text-2xl">
           <p>
-              As an upcoming official facilitator of the GHO stablecoin, Eclypse enables liquidity providers of UniswapV3 and ArrakisV2 to use their position as collateral to unlock part of their yield generating liquidity.
+            As an upcoming official facilitator of the GHO stablecoin, Eclypse
+            enables liquidity providers of UniswapV3 to use their position as
+            collateral to unlock part of their yield generating liquidity.
           </p>
         </div>
       </div>
