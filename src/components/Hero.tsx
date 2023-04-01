@@ -8,7 +8,7 @@ import DesktopOnly from "./DesktopOnly";
 
 export default function Hero() {
   return (
-    <div className="md:h-full flex flex-col items-center justify-around gap-0 pb-10 mt-20 md:mt-0 py-10 px-10 max-w-[1512px] z-0 w-full">
+    <div className="md:h-full flex flex-col items-center justify-around gap-0 pb-10 mt-20 md:mt-0 py-10 px-10 max-w-[1512px] z-0 w-full text-white">
       <div className="flex flex-row py-10 items-center justify-center w-full h-full max-w-[1160px] relative overflow-visible">
         <div className="flex flex-col h-full w-full md:w-[40%] gap-4 lg:gap-6 text-6xl justify-center items-start font-bold">
           <div className="flex flex-col gap-2 lg:gap-4 items-start justify-center text-4xl md:text-4xl lg:text-5xl xl:text-6xl">

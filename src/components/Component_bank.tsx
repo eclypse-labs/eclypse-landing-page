@@ -61,7 +61,7 @@ export function HeroButton(props: HrefAndMsgProps) {
         target={props.target}
         rel="noopener"
         >
-        <div className="text-black dark:hover:bg-primary7 bg-primary6 duration-300 py-4 px-6 rounded-lg relative">
+        <div className="text-black hover:bg-primary7 bg-primary6 duration-300 py-4 px-6 rounded-lg relative">
           <span className="absolute animate-ping -top-2 -left-2 h-5 w-5 rounded-full bg-primary8 opacity-75"></span>
           <span className="absolute -top-1 -left-1 rounded-full h-3 w-3 bg-primary8"></span>
         {props.text}
@@ -80,7 +80,7 @@ export function FullyIntegratedCard(props : FullyIntegratedCardProps) {
   return (
     <div className="flex flex-col items-center justify-start rounded-lg bg-primary3 bg-opacity-30 p-5 w-full md:w-[420px] h-full gap-3 text-center">
       <div className="text-lg md:text-xl font-bold">{props.title}</div>
-      <div className="text-m text-gray-700 dark:text-gray-200">{props.text}</div>
+      <div className="text-m text-gray-200">{props.text}</div>
     </div>
   );
 }
