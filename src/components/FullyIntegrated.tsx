@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="flex flex-col items-center justify-between gap-10 max-w-[1160px] w-full text-center">
         <div className="text-3xl font-bold mt-10 md:mt-0">
           <span className="text-black dark:text-white">FULLY </span>
-          <span className="text-primary6 bg-gradient-to-r bg-clip-text text-transparent">
+          <span className="from-primary3 to-primary6 bg-gradient-to-r bg-clip-text text-transparent">
             {" "}
             INTEGRATED{" "}
           </span>
