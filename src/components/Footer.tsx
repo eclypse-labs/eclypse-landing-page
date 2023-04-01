@@ -14,7 +14,7 @@ import { FooterSocial, FooterTitle } from "./Component_bank";
 
 export default function Header() {
   return (
-    <div className="md:h-[300px] flex flex-col md:flex-row items-center md:items-start w-full py-12 justify-start md:justify-between px-10 md:px-20 max-w-[1512px] gap-10 lg:gap-32 bg-black/20 z-40 mt-20">
+    <div className="md:h-[300px] flex flex-col md:flex-row items-center md:items-start w-full py-12 justify-start md:justify-between px-10 md:px-20 max-w-[1512px] gap-10 lg:gap-32 bg-black/20 z-40 mt-20 text-white">
       <div className="flex flex-col gap-0 md:gap-6 w-full md:w-fit">
         <div className="flex flex-col md:flex-row gap-1 md:h-[50px] items-center">
           <Image src={logosolo} alt="logo Eclypse" className="w-40 md:w-14" />

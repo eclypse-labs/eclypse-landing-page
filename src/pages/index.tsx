@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Supercharge from "../components/Supercharge";
@@ -13,9 +12,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="relative w-full flex flex-col items-center justify-center overflow-hidden font-montserrat">
+    <div className="relative w-full flex flex-col items-center justify-center overflow-hidden font-montserrat bg-black z-30">
       <div className="absolute w-full h-full flex">
-        <Image alt="gradient" src={bg} className="w-full h-full"/>
+        <Image alt="gradient" src={bg} className="w-full h-full z-0"/>
       </div>
       <Header />
       <Hero />
