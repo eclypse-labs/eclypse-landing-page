@@ -9,7 +9,13 @@ const Header: React.FC = () => {
   return (
     <div className="h-[100px] z-50 font-montserrat bg-black/20 w-full flex items-center justify-center md:relative fixed top-0">
       <div className="max-w-[1512px] items-center justify-between flex flex-row w-full px-0 md:px-10">
-        <Image src={logo} alt="Eclypse Logo" className="z-50 hidden md:flex" />
+        <div className="md:flex hidden flex-row items-center justify-center">
+          <Image src={logosolo} alt="Eclypse Logo" className="z-50 hidden md:flex" />
+          <span className="text-gray-200 md:text-primary3 font-semibold text-2xl md:text-4xl">
+          _ECLYPSE
+          </span>
+ 
+        </div>
         <Image src={logosolo} alt="Eclypse Logo" className="ml-[20px] md:hidden"/>
         <div className="hidden flex-row items-center min-[850px]:flex gap-10">
           <HeaderTitle text="Github" href="https://github.com/eclypse-labs" target="blank" />

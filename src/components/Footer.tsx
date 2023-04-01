@@ -20,7 +20,7 @@ export default function Header() {
           <Image src={logosolo} alt="logo Eclypse" className="w-40 md:w-14" />
           <Link
             href="/"
-            className="text-gray-200 md:text-primary3 font-medium text-2xl md:text-4xl"
+            className="text-gray-200 md:text-primary3 font-semibold text-2xl md:text-4xl"
           >
             _ECLYPSE
           </Link>
