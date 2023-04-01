@@ -17,21 +17,30 @@ export default function Header() {
     <div className="md:h-[300px] flex flex-col md:flex-row items-center md:items-start w-full py-12 justify-start md:justify-between px-10 md:px-20 max-w-[1512px] gap-10 lg:gap-32 bg-black/20 z-40 mt-20">
       <div className="flex flex-col gap-0 md:gap-6 w-full md:w-fit">
         <div className="flex flex-col md:flex-row gap-1 md:h-[50px] items-center">
-          <Image src={logosolo} alt="logo Eclypse" className="w-40 md:w-14"/>
-          <Link href="/" className="text-gray-200 md:text-primary3 font-medium text-2xl md:text-4xl">
-          _ECLYPSE
+          <Image src={logosolo} alt="logo Eclypse" className="w-40 md:w-14" />
+          <Link
+            href="/"
+            className="text-gray-200 md:text-primary3 font-medium text-2xl md:text-4xl"
+          >
+            _ECLYPSE
           </Link>
         </div>
-        <span className="md:pl-2 text-sm md:text-base text-center md:text-left">Unleashing the power of your liquidity.</span>
+        <span className="md:pl-2 text-sm md:text-base text-center md:text-left">
+          The liquidity layer for LPs.
+        </span>
       </div>
       <div className="flex flex-col gap-2 text-lg text-center md:text-left">
         <div className="flex flex-col md:flex-row md:h-[50px] items-center">
-        <Link href="" className="text-primary3 text-2xl font-medium">
-          _Ressources
-        </Link>
+          <Link href="" className="text-primary3 text-2xl font-medium">
+            _Ressources
+          </Link>
         </div>
-        <FooterTitle title="Github" href="https://github.com/eclypse-labs" target="blank"/>
-        <FooterTitle title="Whitepaper" href="" target="blank"/>
+        <FooterTitle
+          title="Github"
+          href="https://github.com/eclypse-labs"
+          target="blank"
+        />
+        <FooterTitle title="Whitepaper" href="" target="blank" />
       </div>
       <div className="flex flex-col gap-2 text-lg text-center md:text-left">
         <div className="flex flex-col md:flex-row md:h-[50px] items-center">
