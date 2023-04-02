@@ -14,7 +14,7 @@ export default function Hero() {
           <div className="flex flex-col gap-2 lg:gap-4 items-start justify-center text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
             <span>Collect Fees.</span>
             <span>
-              Stay <span className="text-primary6">Liquid</span>
+              Stay <span className="text-primary6">Liquid.</span>
             </span>
             <span>Level up.</span>
           </div>
