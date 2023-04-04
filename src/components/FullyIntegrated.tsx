@@ -16,15 +16,15 @@ export default function Hero() {
           <FullyIntegratedCard
             title="COLLATERALIZE AND MANAGE
             YOUR UNISWAP LP"
-            text="Eclypse will allow you to deposit and collateralize your liquidity positions from leading decentralized exchanges such as Uniswap V3 natively. You can manage range, add or remove liquidity all while keeping track of your loans in one place."
+            text="Eclypse allows you to deposit and collateralize your liquidity positions from Uniswap V3 natively. You can manage your range, add or remove liquidity all while keeping track of your loans in one place."
           />
           <FullyIntegratedCard
             title="BORROW GHO BY AAVE (AND MORE)"
-            text="Eclypse aims to be one of the first third party facilitators for the GHO stablecoin from AAVE as well as other stablecoins to allow maximum flexibility for LPs."
+            text="Eclypse aims to be one of the first third party facilitators for the GHO stablecoin from AAVE to allow maximum flexibility for LPs."
           />
           <FullyIntegratedCard
-            title="A BRAND NEW LIQUIDATION MODEL"
-            text="Based off of the stability pool design by Liquity, this architecture will allow for deep liquidity and capital efficiency. All while guaranteeing the best yields for stability providers. "
+            title="KEEP ON EARNING"
+            text="Eclypse allows you to keep earning fees on your liquidity while you borrow against it. You can also use your borrowed GHO to earn more yield."
           />
         </div>
       </div>
