@@ -24,7 +24,7 @@ export default function Hero() {
           />
           <FullyIntegratedCard
             title="KEEP ON EARNING"
-            text="Eclypse allows you to keep earning fees on your liquidity while you borrow against it. You can also use your borrowed GHO to earn more yield."
+            text="Keep earning fees on your liquidity position while you borrow against it. You can also use your borrowed GHO to earn more yield."
           />
         </div>
       </div>
