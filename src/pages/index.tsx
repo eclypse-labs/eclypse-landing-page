@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 import Supercharge from "../components/Supercharge";
 import FullyIntegrated from "../components/FullyIntegrated";
 import Footer from "../components/Footer";
-import bg from "../images/bg/gradient.png";
+import bg from "../images/bg/gradient.webp";
 import bigbg from "../images/bg/bigGradient.png";
 
 const inter = Inter({ subsets: ["latin"] });
