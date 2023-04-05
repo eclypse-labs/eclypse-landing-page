@@ -1,4 +1,4 @@
-import bg from "../images/bg/gradient2.webp";
+import bg from "../images/bg/gradient7.webp";
 import Image from "next/image";
 import bigbg from "../images/bg/bigGradient.png";
 
